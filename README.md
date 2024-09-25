@@ -1,3 +1,5 @@
+![alt text](image.png)
+
 # In this Terraform EKS Cluster Creation playlist, first, we will create AWS VPC with Terraform and create an EKS cluster with an instance group. Terraform EKS Cluster Example will conform with AWS best practices. AWS VPC will contain two subnets in each availability zone. We will have two public subnets to create load balancers and expose our Kubernetes services to the internet and two private subnets to hold our Kubernetes nodes. Also, we will create two nat gateways to provide high availability for our Kubernetes workers.
 
 ## AWS Credentials
@@ -17,4 +19,4 @@ export AWS_SECRET_ACCESS_KEY="your_secret_key"
 Choose the method that best fits your workflow and security requirements. Never commit credentials to version control.
 
 
-![alt text](image.png)
+
